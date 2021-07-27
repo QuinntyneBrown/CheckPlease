@@ -1,0 +1,23 @@
+:host {
+  height: 75px;
+  display: flex;
+  place-items: center start;
+  padding: 0 30px;
+
+  .check-please__container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 30px;
+
+    .check-please__icon-container {
+      display: grid;
+      place-items: center;
+    }
+
+    h2, h3 {
+      margin: 0;
+      padding:0;
+      line-height: 1em;
+    }
+  }
+}
